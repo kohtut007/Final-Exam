@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="260dp"
+    android:layout_width="180dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/spacing_regular"
     android:background="@color/white"
@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/ivMoviePoster"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:scaleType="centerCrop"
             android:background="@color/white"
             android:src="@drawable/merg"
@@ -29,7 +29,7 @@
             android:id="@+id/tvMovieTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:padding="@dimen/spacing_medium"
+            android:padding="@dimen/spacing_xsmall"
             android:text="Meg 2: The Trench"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_favorite"
             app:tint="@color/white"
-            android:padding="@dimen/spacing_small"
+            android:padding="@dimen/spacing_xsmall"
             app:layout_constraintStart_toStartOf="@id/tvMovieTitle"
             app:layout_constraintTop_toBottomOf="@id/tvMovieTitle" />
 
